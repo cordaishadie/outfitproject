@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="climateButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="occasionButtonGroup">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="climateLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="warmButton" min="-2" max="-2" attributes="0"/>
+                  <Component id="coldButton" min="-2" max="-2" attributes="0"/>
+                  <Component id="hotButton" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Component id="occasionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="casualButton" min="-2" max="-2" attributes="0"/>
+                          <Component id="chillButton" min="-2" max="-2" attributes="0"/>
+                          <Component id="formalButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+                      <Component id="wearButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
+              <Component id="generateButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="286" max="32767" attributes="0"/>
+              <Component id="likeButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="shirtLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="bottomLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="shoesLabel1" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                              <Component id="jacketLabel1" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                              <Component id="glassesLabel1" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="bagLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jewelryLabel1" min="-2" pref="58" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="wornBag" pref="138" max="32767" attributes="0"/>
+                  <Component id="wornGlasses" alignment="0" max="32767" attributes="0"/>
+                  <Component id="wornJacket" alignment="0" max="32767" attributes="0"/>
+                  <Component id="wornShoes" alignment="0" max="32767" attributes="0"/>
+                  <Component id="wornShirt" alignment="0" max="32767" attributes="0"/>
+                  <Component id="wornBottom" alignment="0" max="32767" attributes="0"/>
+                  <Component id="wornJewelry" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="shirtLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="bottomLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="shoesLabel" min="-2" pref="78" max="-2" attributes="0"/>
+                              <Component id="jacketLabel" min="-2" pref="78" max="-2" attributes="0"/>
+                              <Component id="glassesLabel" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="bagLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jewelryLabel" min="-2" pref="58" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="bagOTD" pref="135" max="32767" attributes="0"/>
+                  <Component id="glassesOTD" alignment="0" max="32767" attributes="0"/>
+                  <Component id="shoesOTD" alignment="0" max="32767" attributes="0"/>
+                  <Component id="bottomOTD" alignment="0" max="32767" attributes="0"/>
+                  <Component id="shirtOTD" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jacketOTD" max="32767" attributes="0"/>
+                  <Component id="jewelryOTD" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="shirtLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="bottomLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="shoesLabel2" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                              <Component id="jacketLabel2" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                              <Component id="glassesLabel2" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="bagLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jewelryLabel2" min="-2" pref="58" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="likedGlasses" alignment="0" pref="141" max="32767" attributes="0"/>
+                  <Component id="likedJacket" alignment="0" max="32767" attributes="0"/>
+                  <Component id="likedShoes" alignment="0" max="32767" attributes="0"/>
+                  <Component id="likedBottom" alignment="0" max="32767" attributes="0"/>
+                  <Component id="likedShirt" alignment="0" max="32767" attributes="0"/>
+                  <Component id="likedBag" max="32767" attributes="0"/>
+                  <Component id="likedJewelry" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="coldButton" min="-2" max="-2" attributes="0"/>
+                  <Component id="climateLabel" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="warmButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="hotButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="chillButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="occasionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="casualButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="formalButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="163" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="shirtLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="shirtOTD" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bottomLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bottomOTD" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="shoesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="shoesOTD" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jacketLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jacketOTD" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="glassesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="glassesOTD" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bagLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bagOTD" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jewelryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jewelryOTD" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="shirtLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wornShirt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bottomLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wornBottom" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="shoesLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wornShoes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jacketLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wornJacket" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="glassesLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wornGlasses" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bagLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wornBag" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jewelryLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wornJewelry" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="wearButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="likeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="generateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="shirtLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="likedShirt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bottomLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="likedBottom" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="shoesLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="likedShoes" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jacketLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="likedJacket" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="glassesLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="likedGlasses" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bagLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="likedBag" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jewelryLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="likedJewelry" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JRadioButton" name="coldButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="climateButtonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cold"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="coldButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="warmButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="climateButtonGroup"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Warm"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="warmButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="hotButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="climateButtonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Hot"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hotButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="chillButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="occasionButtonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Chill"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chillButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="casualButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="occasionButtonGroup"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Casual"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="casualButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="formalButton">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="occasionButtonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Formal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="formalButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="generateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Generate!"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="generateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="wearButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wearButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="likeButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Like &lt;3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="likeButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="shirtOTD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="shirtOTDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bottomOTD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bottomOTDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="shoesOTD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="shoesOTDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jacketOTD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jacketOTDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="glassesOTD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="glassesOTDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bagOTD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bagOTDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jewelryOTD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jewelryOTDActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="climateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Please select the climate of the day:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="occasionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Please select the occasion of the day:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="shirtLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Shirt:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bottomLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bottoms:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="shoesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Shoes:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jacketLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jacket:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="glassesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Glasses:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bagLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bag:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jewelryLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jewelry:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="wornShirt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wornShirtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="wornBottom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wornBottomActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="wornShoes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wornShoesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="wornJacket">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wornJacketActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="wornGlasses">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wornGlassesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="wornBag">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wornBagActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="wornJewelry">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wornJewelryActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="shirtLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Shirt:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bottomLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bottoms:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="shoesLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Shoes:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jacketLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jacket:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="glassesLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Glasses:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bagLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bag:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jewelryLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jewelry:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="likedShirt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="likedShirtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="likedBottom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="likedBottomActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="likedShoes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="likedShoesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="likedJacket">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="likedJacketActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="likedGlasses">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="likedGlassesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="likedBag">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="likedBagActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="likedJewelry">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&quot;&quot;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="likedJewelryActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="shirtLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Shirt:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bottomLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bottoms:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="shoesLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Shoes:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jacketLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jacket:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="glassesLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Glasses:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bagLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bag:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jewelryLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jewelry:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
